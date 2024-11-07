@@ -1,0 +1,55 @@
+/* remove all default style */
+
+body {
+    font-family: "Mulish", sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #424247;
+}
+h1,h2,h3,h4{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* nav bar style */
+.nav-bar{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-logo-part-1,
+.nav-logo-part-2{
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-logo-part-2{
+    color: #FF5400;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+
+.nav-items a:hover{
+    color: #FF5400;
+    font-weight: 700;
+}
