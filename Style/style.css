@@ -53,3 +53,69 @@ h1,h2,h3,h4{
     color: #FF5400;
     font-weight: 700;
 }
+
+
+/* banner style */
+.banner-container{
+    background-image: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%),url("../Images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 106px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+
+.banner-title{
+    font-size: 64px;
+    font-weight: 800;
+    color: white;
+}
+
+.banner-des{
+    width: 645px;
+    color: white;
+    text-align: center;
+}
+
+.banner-buttons{
+    background-color: #FFFFFF4D;
+    width: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.banner-input{
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 170px;
+}
+.banner-btn{
+    padding: 16px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    width: 170px;
+    background-color: #FF5400;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-weight: 700;
+}
+.banner-cotent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
